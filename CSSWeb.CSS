@@ -1,0 +1,108 @@
+/*Style.CSS*/
+p{
+	color:grey;
+}
+
+p:first-of-type {
+	color:black;
+	font-size: 20px;
+
+}
+
+table.characters{
+	float: left;
+}
+
+table,tr, td, th{
+	border: .5px solid black;
+}
+
+td{
+	padding: 10px;
+}
+
+span.intro{
+	color: black;
+	font-size: 20px;
+	padding: 2px;
+}
+
+div.episodes{
+	margin-left:55%;
+}
+
+li{
+	font-size: 20px;
+}
+
+th.click{
+	padding: 10px;
+}
+
+h1{
+	color: white;
+	background: lightblue;
+	text-align: center;
+	padding: 25px;
+}
+
+div.headerImage{
+	float:left;
+	padding: 10px;
+}
+
+h3.pages{
+	color: blue;
+}
+
+tr.top{
+	height: 20px;
+}
+
+div.headshot{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 27.5%
+}
+
+div.mainMenu{
+	/*float: left;*/
+	color: red;
+	background: lightblue;
+	/*width: 100%;
+	height:50%;
+	padding: 1%;*/
+	display: block;
+	margin-left: 38.5%;
+	margin-right: auto;
+	width: 0%;
+}
+
+tr.menu{
+	color: blue;
+}
+
+th.click{
+	padding:10px;
+}
+
+th.click:hover{
+	background: grey;
+}
+
+th.menuOnPages:hover{
+background: grey;
+}
+
+a:hover{
+	background: grey;
+}
+
+a{
+	color: green;
+}
+
+table, td, th{
+	border: .5px solid black;
+}
