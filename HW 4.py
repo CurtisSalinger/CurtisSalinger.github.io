@@ -63,9 +63,8 @@ for key in sorted(d_states.keys()):
     x2.append(key)
     y2.append(d_states[key])
 
-
-fig, ax = plt.subplots()
 # Democrat Percentage Victory
+fig, ax = plt.subplots()
 ax.bar(d_states.keys(),d_states.values(),color = 'b')
 plt.title('Percentage that H. Clinton Won the State With')
 plt.xlabel('States')
@@ -73,8 +72,8 @@ plt.xticks(rotation = 'vertical')
 plt.ylabel('Percent')
 plt.savefig('DPercentage.png')
 
-fig, ay = plt.subplots()
 # Republican Percentage Victory
+fig, ay = plt.subplots()
 ay.bar(r_states.keys(),r_states.values(),color = 'r')
 plt.title('Percentage that D. Trump Won the State With')
 plt.xlabel('States')
@@ -96,7 +95,8 @@ for elem in sorted(e_votesboth.keys()):
         colors.append('r')
     else:
         colors.append('b')
-        
+
+# Electoral Votes
 fig, az = plt.subplots()
 az.bar(e_votessorted.keys(),e_votessorted.values(), color = colors)
 plt.title('Number of Electoral Votes per State')
