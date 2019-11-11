@@ -1,1 +1,36 @@
-<head><meta name="description" content="This will give you Curtis's breakdown of Chuck."><title> Political Data </title><h1> Political Data</h1><p> This is my breakdown of how the voting went state by state for the 2016 election. I went through and plotted the data for each candidate's performance in each state, in terms of number of electoral votes they got, and then in addition plotted their percentage vicories in each of their winning states on the same graph</p><p> I scraped all of my data off of a website that recorded voting information after the election. In this process, I went through the HTML of the website and found what tags I needed to inspect. I started by making a list of all of the different states by using the beautiful soup find_all() method to find every table of class "Results-Table". I also found all of the "h3" tags which were used to display the state names. Then I wrote a loop that went through all of the states and found their "name-combo" span classes which had the name of the nominee that one. I found the corresponding percentage of vote by finding the span "number" class. Then I just had to sort which name went into the democrat list, and which went into the republican list. Then I went through and found how many electoral votes the candidate got from each state they won (for the states in which the electoral college can split votes, I just did the majority).<p><a href = "https://www.politico.com/2016-election/results/map/president/">Link</a> to where I scraped the data from</p>
+<head><meta name="description" content="This will give you Curtis's breakdown of Chuck."><title> Political Data </title><h1> Political Data</h1><p> This is my breakdown of how the voting went state by state for the 2016 election. I went through and plotted the data for each candidate's performance in each state, in terms of number of electoral votes they got, and then in addition plotted their percentage vicories in each of their winning states on the same graph</p><p> I scraped all of my data off of a website that recorded voting information after the election. In this process, I went through the HTML of the website and found what tags I needed to inspect. I started by making a list of all of the different states by using the beautiful soup find_all() method to find every table of class "Results-Table". I also found all of the "h3" tags which were used to display the state names. Then I wrote a loop that went through all of the states and found their "name-combo" span classes which had the name of the nominee that one. I found the corresponding percentage of vote by finding the span "number" class. Then I just had to sort which name went into the democrat list, and which went into the republican list. Then I went through and found how many electoral votes the candidate got from each state they won (for the states in which the electoral college can split votes, I just did the majority).<p><a href = "https://www.politico.com/2016-election/results/map/president/">Link</a> to where I scraped the data from</p><p>Al = {'D. Trump': '52.9%'}
+Ar = {'D. Trump': '60.4%'}
+Ca = {'H. Clinton': '61.6%'}
+Co = {'H. Clinton': '54.5%'}
+De = {'H. Clinton': '53.4%'}
+Di = {'H. Clinton': '92.8%'}
+Fl = {'D. Trump': '49.1%'}
+Ge = {'D. Trump': '51.3%'}
+Ha = {'H. Clinton': '62.3%'}
+Id = {'D. Trump': '59.2%'}
+Il = {'H. Clinton': '55.4%'}
+In = {'D. Trump': '57.2%'}
+Io = {'D. Trump': '51.8%'}
+Ka = {'D. Trump': '57.2%'}
+Ke = {'D. Trump': '62.5%'}
+Lo = {'D. Trump': '58.1%'}
+Ma = {'H. Clinton': '60.8%'}
+Mi = {'D. Trump': '57.1%'}
+Mo = {'D. Trump': '56.5%'}
+Ne = {'H. Clinton': '58.8%'}
+No = {'D. Trump': '64.1%'}
+Oh = {'D. Trump': '52.1%'}
+Ok = {'D. Trump': '65.3%'}
+Or = {'H. Clinton': '51.7%'}
+Pe = {'D. Trump': '48.8%'}
+Rh = {'H. Clinton': '55.4%'}
+So = {'D. Trump': '61.5%'}
+Te = {'D. Trump': '52.6%'}
+Ut = {'D. Trump': '45.9%'}
+Ve = {'H. Clinton': '61.1%'}
+Vi = {'H. Clinton': '49.9%'}
+Wa = {'H. Clinton': '54.4%'}
+We = {'D. Trump': '68.7%'}
+Wi = {'D. Trump': '47.9%'}
+Wy = {'D. Trump': '70.1%'}
+</p>
