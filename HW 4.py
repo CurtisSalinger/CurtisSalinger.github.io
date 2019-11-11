@@ -53,6 +53,10 @@ for i in range(len(states)):
         e_votesr[name + ' ' + n1] = evote
 
 with open ('index.html','w') as f:
+    out = ''
+    for entry in winners:
+        out +=  str(entry) + ' = ' + str(winners[entry]) + '\n'
+        
     text = ('<head>'+
             '<meta name="description" content="This will give you Curtis\'s breakdown of Chuck.">'+
             '<title> Political Data </title>' +
@@ -67,7 +71,10 @@ with open ('index.html','w') as f:
             'name of the nominee that one. I found the corresponding percentage of vote by finding the span "number" class. Then I just had to sort which ' +
             'name went into the democrat list, and which went into the republican list. Then I went through and found how many electoral votes the '
             'candidate got from each state they won (for the states in which the electoral college can split votes, I just did the majority).' +
-            '<p><a href = "https://www.politico.com/2016-election/results/map/president/">Link</a> to where I scraped the data from</p>')
+            '<p><a href = "https://www.politico.com/2016-election/results/map/president/">Link</a> to where I scraped the data from</p>'
+            '<p>' + out + '</p>')
+            
+                
     f.write(text)
             
 
@@ -92,7 +99,7 @@ xs, ys = zip(*sorted(zip(d_states.keys(), d_states.values())))
 plt.plot(xs, ys)
 
 plt.xticks()
-plt.savefig('trumpChart.png')
+plt.savefig('ElectionResults.png')
 #plt.scatter(xaxisd,yaxisd)
 #plt.scatter(xaxisr,yaxisr)
 #ax.plot(xaxisd,yaxisd,xaxisr,yaxisr)
