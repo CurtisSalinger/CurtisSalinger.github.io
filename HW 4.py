@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import numpy
 import itertools
 
-
+#Create empty variables for all of the different data sets I want to pull
 name = ''
 names = []
 elect = ''
@@ -25,12 +25,15 @@ xaxisd = []
 xaxisr = []
 yaxisd = []
 yaxisr = []
+
+#Load the HTML code from the webiste
 url = 'https://www.politico.com/2016-election/results/map/president/'
 html = requests.get(url).text
 bs = BeautifulSoup(html)
 states = bs.find_all('table', class_='results-table')
 heads = bs.find_all('h3')
 
+#Scrape the data I want and put it into the variables created above
 for i in range(len(states)):
     name = heads[i+2].text[59:61]
     nominees = states[i].find_all('span',class_= 'name-combo')
