@@ -107,6 +107,7 @@ plt.xlabel('States')
 plt.ylabel('Votes')
 plt.xticks(rotation = 'vertical')
 plt.savefig('ElectionResultsVotes.png')
+plt.show()
 
 with open ('index.html','w') as f:
         
