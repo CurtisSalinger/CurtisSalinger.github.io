@@ -56,6 +56,7 @@ with open ('index.html', 'w') as f:
             '<h3> My Score should be: </h3>' +
             '<p> 90 for the base assignment, 5 for upvoting each comment, 5 for writing over 200 comments, 10 for posting 20 plagerized submissions leading to a ' +
             'total of <strong>110/100</strong> points.</p>')
+    
     f.write(code)
     print('Website written')
 
