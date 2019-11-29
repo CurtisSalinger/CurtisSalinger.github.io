@@ -93,7 +93,7 @@ while True:
 
         p_title = random.choice(plagerized).title
         p_text = random.choice(plagerized).selftext
-        r.submit(title = 'Plagerized from r/Pete_Buttigieg ' + p_title, selftext = p_text)
+        r.submit(title = 'Plagiarized from r/Pete_Buttigieg ' + p_title, selftext = p_text)
         print('Posted New')
 
         top_level_comments = list(sub.comments)
