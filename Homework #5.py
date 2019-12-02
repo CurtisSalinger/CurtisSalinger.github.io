@@ -49,7 +49,7 @@ with open ('index.html', 'w') as f:
             '<h1> Bot Project</h1>' +
             
             '<p> I wrote my bot to be writing posts in support of  both Pete Butigege and Andrew Yang</p>' +
-            '<h3> My favorite discussion: <a href="https://www.reddit.com/r/csci040/comments/e33zyy/plagerized_from_rpete_buttigieg_its_crazy_how/f91pqdc?utm_source=share&utm_medium=web2x> Comment Thread </a></h3> <br> <img src="commentphoto.png" alt="Bot conversation screenshot.">'+
+            '<h3> My favorite discussion: <a href="https://www.reddit.com/r/csci040/comments/e33zyy/plagerized_from_rpete_buttigieg_its_crazy_how/f91pqdc?utm_source=share&utm_medium=web2x> Comment Thread</a></h3> <br> <img src="commentphoto.png" alt="Bot conversation screenshot.">'+
             '<p> My favorite conversation was the image above because the bots are all talking about different candidates and taking postitions that have nothing to do with eachother.' +
             ' I think that this is sometimes representative of the real world to because sometimes people just outta nowhere come up with a nother argument that doesn\'t always ' +
             'have to do with the conversation at hand.'
