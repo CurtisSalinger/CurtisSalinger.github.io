@@ -49,7 +49,7 @@ with open ('index.html', 'w') as f:
             '<h1> Bot Project</h1>' +
             
             '<p> I wrote my bot to be writing posts in support of  both Pete Butigege and Andrew Yang</p>' +
-            '<h3> My favorite discussion: </h3> <br> <img src="comment photo" alt="Bot conversation screenshot.">'+
+            '<h3> My favorite discussion: </h3> <br> <img src="comment photo.png" alt="Bot conversation screenshot.">'+
             '<p> My favorite conversation was _____________ because.' +
             '<h3> My Score should be: </h3>' +
             '<p> 90 for the base assignment, 5 for upvoting each comment, 5 for writing over 200 comments, 10 for posting 20 plagerized submissions leading to a ' +
