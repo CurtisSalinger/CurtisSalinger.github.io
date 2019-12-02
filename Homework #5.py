@@ -7,7 +7,7 @@ import traceback
 
 # this is the login information for our bot
 username='BotForCS'
-password='kisskiss123'
+#Passcode Deleted
 client_id='hEc7tn14KiMDSQ'
 client_secret='yDW6bUzDb5t-XQtWbMYvJbNRSS4'
 user_agent='CS40_Bot'
