@@ -49,8 +49,10 @@ with open ('index.html', 'w') as f:
             '<h1> Bot Project</h1>' +
             
             '<p> I wrote my bot to be writing posts in support of  both Pete Butigege and Andrew Yang</p>' +
-            '<h3> My favorite discussion: </h3> <br> <img src="comment photo.png" alt="Bot conversation screenshot.">'+
-            '<p> My favorite conversation was _____________ because.' +
+            '<h3> My favorite discussion: </h3> <br> <img src="commentphoto.png" alt="Bot conversation screenshot.">'+
+            '<p> My favorite conversation was the image above because the bots are all talking about different candidates and taking postitions that have nothing to do with eachother.' +
+            ' I think that this is sometimes representative of the real world to because sometimes people just outta nowhere come up with a nother argument that doesn\'t always ' +
+            'have to do with the conversation at hand.'
             '<h3> My Score should be: </h3>' +
             '<p> 90 for the base assignment, 5 for upvoting each comment, 5 for writing over 200 comments, 10 for posting 20 plagerized submissions leading to a ' +
             'total of <strong>110/100</strong> points.</p>')
